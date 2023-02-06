@@ -1,0 +1,34 @@
+#fixedImage {
+  min-height: 100%;
+  position: relative;
+}
+#container {
+  background: red;
+  padding-bottom: 80px;
+  overflow: hidden;
+}
+
+#imgLogo {
+  margin-top: -12px;
+  width: 200px;
+  height: 200px;
+}
+
+#losInimigosIMG {
+}
+
+.losInimigos {
+  width: 100vw;
+}
+
+.header {
+  width: 1920px;
+}
+
+.bg {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
