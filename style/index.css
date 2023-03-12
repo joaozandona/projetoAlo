@@ -1,34 +1,86 @@
-#fixedImage {
-  min-height: 100%;
-  position: relative;
-}
-#container {
-  background: red;
-  padding-bottom: 80px;
-  overflow: hidden;
-}
-
-#imgLogo {
-  margin-top: -12px;
-  width: 200px;
-  height: 200px;
-}
-
-#losInimigosIMG {
-}
-
-.losInimigos {
-  width: 100vw;
-}
-
-.header {
-  width: 1920px;
-}
-
 .bg {
   position: absolute;
   z-index: -1;
   left: 0;
   top: 0;
   width: 100%;
+  margin-top: -10vh;
+  height: 29%;
+}
+
+.bg img {
+  width: 100%;
+  height: 70vh;
+}
+
+.classBody {
+  width: 100%;
+  height: 100%;
+}
+
+.downMenu {
+  position: absolute;
+  width: 100%;
+  margin-top: 23%;
+}
+
+.downMenu img {
+  position: relative;
+  left: 47%;
+}
+
+.iFrameVideo {
+  position: relative;
+  left: 35vw;
+}
+
+@media (max-width: 1250px) {
+  .downMenu {
+    margin-top: 25%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .downMenu {
+    margin-top: 27%;
+  }
+  .downMenu img {
+    left: 46%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .downMenu {
+    margin-top: 30%;
+  }
+}
+
+@media (max-width: 950px) {
+  .downMenu {
+    margin-top: 35%;
+  }
+}
+
+@media (max-width: 850px) {
+  .downMenu {
+    margin-top: 40%;
+  }
+}
+
+@media (max-width: 750px) {
+  .downMenu {
+    margin-top: 45%;
+  }
+  .downMenu img {
+    left: 45%;
+  }
+}
+
+@media (max-width: 650px) {
+  .downMenu {
+    margin-top: 50%;
+  }
+  .downMenu img {
+    left: 44%;
+  }
 }
